@@ -1,13 +1,13 @@
 /**
- * @name Container
- * @level X.X.
- * @description
- *   Basic container class to limit the max-width of the layout and add some padding
+ * Container
  *
- * @code
- *   <div class="u-container">
- *     <div class="stuff-to-be-contained"></div>
- *   </div>
+ * Basic container class to limit the max-width of the layout and add some padding
+ *
+ * @level X.X.
+ * @markup
+ * <div class="u-container">
+ *   <div class="stuff-to-be-contained"></div>
+ * </div>
  */
 @mixin u-container($spacing: 0 1em, $max-width: $layout-max-width) {
   margin: 0 auto;
