@@ -11,8 +11,6 @@
   max-width: $max-width;
 }
 
-
-
 /**
  * Default
  *
@@ -25,8 +23,6 @@
 .u-container {
   @include u-container();
 }
-
-
 
 /**
  * Narrow
