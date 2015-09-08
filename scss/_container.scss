@@ -11,6 +11,11 @@
   max-width: $max-width;
 }
 
+// Variables
+$u-container-narrow: false !default;
+
+
+
 /**
  * Default
  *
@@ -24,15 +29,19 @@
   @include u-container();
 }
 
-/**
- * Narrow
- *
- * @level X.X.X.
- * @markup
- * <div class="u-container-narrow">
- *   <p>stuff to be contained</p>
- * </div>
- */
-.u-container-narrow {
-  @include u-container(0 1em, 48em);
+
+
+@if $u-container-narrow {
+  /**
+   * Narrow
+   *
+   * @level X.X.X.
+   * @markup
+   * <div class="u-container-narrow">
+   *   <p>stuff to be contained</p>
+   * </div>
+   */
+  .u-container-narrow {
+    @include u-container(0 1em, 48em);
+  }
 }
