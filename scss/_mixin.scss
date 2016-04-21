@@ -1,0 +1,20 @@
+@import 'avalanchesass_object_container/style_guide';
+
+/*---
+title:   Mixin
+name:    object_container_mixin
+section: object_container
+order:   2
+---
+
+```css
+o-container([$-spacing: 1.5em])
+```
+*/
+@mixin o-container($-spacing: map-get($spacing, s), $-max-width: 64em) {
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: $-spacing;
+  padding-left: $-spacing;
+  max-width: $-max-width;
+}
