@@ -1,0 +1,24 @@
+@import 'avalanchesass_object_container/style_guide';
+@import 'avalanchesass_object_container/variable';
+@import 'avalanchesass_object_container/mixin';
+
+/* extract object.css */
+/* extract object_container.css */
+/*---
+title:   Example
+name:    object_container_example
+section: object_container
+order:   1
+---
+
+```example:html
+<div class="#{$o-container-namespace}">
+  <p>Stuff to be contained.</p>
+</div>
+```
+*/
+.#{$o-container-namespace} {
+  @include o-container($o-container-spacing, $o-container-max-width);
+}
+/* end extract object_container.css */
+/* end extract object.css */

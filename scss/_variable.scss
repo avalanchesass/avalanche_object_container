@@ -1,0 +1,19 @@
+@import 'avalanchesass_object_container/style_guide';
+
+$o-container-namespace: '#{map-get($namespace, object)}container' !default;
+
+$o-container-spacing: 1em !default;
+$o-container-max-width: 64em !default;
+/*---
+title:   Variable
+name:    object_container_variable
+section: object_container
+order:   3
+---
+
+```css
+$o-container-namespace: '#{$o-container-namespace}';
+$o-container-spacing: #{$o-container-spacing};
+$o-container-max-width: #{$o-container-max-width};
+```
+*/
