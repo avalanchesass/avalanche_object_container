@@ -1,6 +1,8 @@
 # avalanchesass_object_container
 Basic container class to limit the max-width of the layout and add some padding.
 
+**ATTENTION:** This package is outdated, you can find the latest release under a new name: https://www.npmjs.com/package/@avalanche/object-container
+
 ## Install
 ```
 npm install avalanchesass_object_container --save
